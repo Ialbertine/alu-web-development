@@ -1,8 +1,9 @@
-# 0x06. Basic authentication
+# Basic authentication
 
 # Simple API
 
 Simple HTTP API for playing with `User` model.
+
 
 ## Files
 
@@ -17,17 +18,20 @@ Simple HTTP API for playing with `User` model.
 - `views/index.py`: basic endpoints of the API: `/status` and `/stats`
 - `views/users.py`: all users endpoints
 
+
 ## Setup
 
 ```
 $ pip3 install -r requirements.txt
 ```
 
+
 ## Run
 
 ```
 $ API_HOST=0.0.0.0 API_PORT=5000 python3 -m api.v1.app
 ```
+
 
 ## Routes
 
